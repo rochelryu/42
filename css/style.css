@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: rgb(0,0,0);
+    font-size: medium;
+    color: white;
+    padding: 140px 150px 20px 300px;
+}
+section{
+    min-width: 100%;
+}
+section .main1{
+    
+    width: 100%;
+    display: inline-block;
+}
+.duo img{
+    margin-top: -40px;
+}
+.art{
+    border-top: 1px solid #666;
+    padding: 10px auto;
+    margin: 60px 0;
+    color: #666;
+}
+.art h1{
+    text-transform: uppercase;
+    color:#888;
+
+}
+.art a{
+    float: right;
+    color: #00BABC;
+    text-decoration: none;
+}
+.art a i{
+    border: 1px solid #00BABC;
+    padding: 5px;
+}
+section .main1 .int{
+    display: inline-block;
+    width: 48%;
+    margin: 0px 10px 20px;
+}
+.uno{
+    border-top: 2px solid #fff;
+    font-size: 70px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.uno p{
+    margin-bottom: -1px;
+}
+.uno span{
+    color: #555;
+}
+ul{
+    margin: 100px 0px;
+    padding: 0 20px;
+    list-style: none;
+    display: content;
+}
+ul.rs li{
+    display: inline-block;
+}
+ul.rs li a i{
+    font-size: large;
+    margin: 2px 6px;
+}
+ul.block li{
+    margin-bottom: 10px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+ul.block li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+.main-foot{
+    padding: 0 20px;
+    margin-top: -50px;
+    color: #666 !important;
+    font-size: 14px;
+}
+.main-foot small{
+    display: block;
+}
+.main-foot a{
+    display: block;
+    color: #666 !important;
+    text-decoration: underline !important;
+    margin: 20px 0;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #2DD57B, #00BABC);
+    width: 200px;
+
+}
+.theme{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+.duo p {
+    font-weight: bolder;
+    font-size: large;
+}
+button{
+    height: 50px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: large;
+    background-color: #00BABC;
+    transition: all .5s;
+}
+button:hover{
+    background-color: #00bc7a;
+}
+.fixed .content{
+    color: black;
+    min-height: 100%;
+    width: 95%;
+    background: #fff;
+    padding: 20px 5px;
+}
+.fixed a{
+    text-decoration: none;
+    color: #000;
+}
+.fixedI{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 400px;
+    z-index: -1;
+    background: url(../img/image1.gif) no-repeat;
+    background-size: 100% 100%;
+}
+@media screen and (max-width: 1026px) {
+    section .main1 .int.duo{
+        width: 100%;
+        margin: 0px 5px 20px;
+    }
+    section .main1 .int.lef{
+        width: 100%;
+        margin: 0px 5px 20px;
+    }
+    .fixed{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        width: 5px;
+    }
+    .fixed .content{
+        display: none;
+    }
+    span.mn{
+        display: block;
+    }
+    body{
+        padding: 140px 50px 20px 30px;
+    }
+
+}
+
+@media screen and (min-width: 1027px) and (max-width: 1285px) {
+    section .main1 .int.duo{
+        width: 100%;
+        margin: 0px 5px 20px;
+    }
+    section .main1 .int.lef{
+        width: 100%;
+        margin: 0px 5px 20px;
+    }
+    
+
+}
+@media screen and (min-width: 1286px) and (max-width: 1566px) {
+    section .main1 .int.duo{
+        width: 50%;
+        margin: 0px 5px 20px;
+    }
+    section .main1 .int.lef{
+        width: 45%;
+        margin: 0px 5px 20px;
+    }
+    
+
+}
